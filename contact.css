@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Spinnaker", sans-serif;
+    background-color: #212121;
+    overflow-x: hidden;
+}
+
+/* .main {
+    width: 100%;
+    height: 100%;
+}
+
+.home {
+    width: 100%;
+    height: 100%;
+}
+
+.nav {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw;
+    position: fixed;
+    z-index: 100;
+    background: linear-gradient(to right, green, beige);
+    opacity: 0.9;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    font-size: 2vw;
+
+}
+
+
+.logo div span {
+    font-weight: 900;
+}
+
+.text{
+    color: black;
+}
+
+
+.buttons ul {
+    list-style: none;
+    display: flex;
+    gap: 3vw;
+    cursor: pointer;
+    font-size: 1.2vw;
+    font-weight: 590;
+}
+
+.buttons ul li:hover {
+    color: rgb(9, 155, 9);
+}
+
+.buttons i{
+    display: none;
+} */
+
+
+.logo img {
+    height: 5.5vw;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+
+/* footer{
+    background-color: #121212;
+} */
+
+.footer{
+    color: white;
+    padding: 7vh;
+    display: flex;
+    gap: 15vw;
+    font-size: 3vh;
+}
+
+
+.footer i{
+    color: rgb(20, 230, 20);
+}
+
+
+.inner-det{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.phone{
+    margin-top: 3vh;
+    display: flex;
+    gap: 1vw;
+}
+
+
+.mail{
+    margin-top: 3vh;
+    display: flex;
+    gap: 1vw;
+}
+
+.mail a{
+    text-decoration: none;
+    color: white;
+}
+
+.location{
+    margin-top: 3vh;
+    display: flex;
+    gap: 1vw;
+}
+.location p{
+    width: 25vw;
+}
+
+.qlinks h2{
+    color: rgb(20, 230, 20);
+    margin-bottom: 3vh;
+}
+
+.links ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.links ul li{
+    cursor: pointer;
+}
+
+.links ul li:hover{
+    color: rgb(20, 230, 20);
+}
+
+.copyright{
+    padding: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
