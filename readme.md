@@ -21,4 +21,4 @@ This is a personal project showcasing a logistics company. The website is built 
 ## Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/logistics-showcase-website.git
+   git clone https://github.com/VG-8294/T-S-Logistic-Solutions-website-.git
