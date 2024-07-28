@@ -5,12 +5,12 @@
 
 This is a personal project showcasing a logistics company. The website is built using HTML, CSS, and JavaScript, with animations powered by GSAP (GreenSock Animation Platform).
 
-## Features
-- **Home Page**: Introduction with animated hero section.
+## Sections
+- **Home**: Introduction with an animated hero section.
 - **Services**: Descriptions of services with smooth scrolling and animations.
-- **About Us**: Company info, mission, vision, and team members with fade-in effects.
+- **Our Clients**: Showcase of our clients with interactive elements.
 - **Contact Us**: Contact form for potential customers.
-- **Interactive Animations**: Engaging animations using GSAP.
+- **About Us**: Company info, mission, vision, and team members with fade-in effects.
 
 ## Technologies Used
 - **HTML5**: Structure of the website.
