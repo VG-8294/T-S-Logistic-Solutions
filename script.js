@@ -118,3 +118,7 @@ document.querySelectorAll('.Btns').forEach(card => {
         }
     });
 });
+
+function openEmail() {
+    window.location.href = "mailto:tslogisticsolutions@gmail.com";
+}
