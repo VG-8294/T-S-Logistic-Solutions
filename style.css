@@ -592,7 +592,8 @@ footer{
         font-size: 4.5vh;
     }
     .abt-us p{
-        font-size: 2.5vh;
+        padding: 5vw;
+        font-size: 2vh;
         line-height: 4vh;
     }
 
