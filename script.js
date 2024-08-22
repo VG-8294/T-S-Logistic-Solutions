@@ -91,7 +91,7 @@ document.querySelectorAll('.lm').forEach(card => {
 document.querySelectorAll('.contact').forEach(card => {
     card.addEventListener('click', function () {
         const url = card.getAttribute('data-url');
-        window.open(url, '_blank');
+        window.open(url);
     });
 });
 
