@@ -49,30 +49,30 @@ gsap.from('.header', {
     opacity: 0,
 })
 
-gsap.from("#card-container .line1", {
-    x: -100,
-    opacity: 0,
-    duration: 3,
-    scrollTrigger: {
-        trigger: "#card-container",
-        scroller: 'body',
-        start: "top 85%",
-        end: "top 50%",
-        scrub: 12
-    }
-});
-gsap.from("#card-container .line2", {
-    x: -50,
-    opacity: 0,
-    duration: 4,
-    scrollTrigger: {
-        trigger: "#card-container",
-        scroller: 'body',
-        start: "top 85%",
-        end: "top 55%",
-        scrub: 15
-    }
-});
+// gsap.from("#card-container .line1", {
+//     x: -100,
+//     opacity: 0,
+//     duration: 3,
+//     scrollTrigger: {
+//         trigger: "#card-container",
+//         scroller: 'body',
+//         start: "top 85%",
+//         end: "top 50%",
+//         scrub: 12
+//     }
+// });
+// gsap.from("#card-container .line2", {
+//     x: -50,
+//     opacity: 0,
+//     duration: 4,
+//     scrollTrigger: {
+//         trigger: "#card-container",
+//         scroller: 'body',
+//         start: "top 85%",
+//         end: "top 55%",
+//         scrub: 15
+//     }
+// });
 
 document.querySelectorAll('.HomeBtn').forEach(card => {
     card.addEventListener('click', function () {
