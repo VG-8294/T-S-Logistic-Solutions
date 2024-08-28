@@ -37,6 +37,7 @@ body {
     opacity: 0.9;
 }
 
+
 .logo {
     display: flex;
     align-items: center;
@@ -488,7 +489,7 @@ footer{
 }
 
 
-@media (max-width:800px) {
+@media (max-width:1100px) {
 
     body{
         width: 100%;
@@ -514,7 +515,7 @@ footer{
         height: 8%;
         background: linear-gradient(to left, beige, rgb(234, 153, 3));
     }
-
+    
     .buttons{
         display: none;
     }
